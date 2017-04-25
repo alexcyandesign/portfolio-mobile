@@ -172,11 +172,11 @@
 }
 #footer {
   text-align: center;
-  height: 60px;
+  height: 80px;
   background-color: #1c2d2c;
 }
 #footer h3 {
-  padding-top: 14px;
+  padding-top: 20px;
   margin-bottom: 6px;
   font-family: 'Fjalla One', sans-serif;
   font-size: 14px;

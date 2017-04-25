@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Yan Portfolio Redesign</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/motion-ui.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Fjalla+One|Montserrat|Playfair+Display|Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+
+  <!-- PERSISTENT NAVIGATION -->
+      <div class="title-bar" data-responsive-toggle="nav" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="nav"></button>
+        <div class="title-bar-title">Menu</div>
+      </div>
+
+      <div class="top-bar row" id="nav">
+        <div class="top-bar-left">
+          <ul class="dropdown menu column large-12 medium-12 small-12" data-dropdown-menu>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="#mission">About</a></li>
+
+            <li>
+              <a href="#">Portfolio</a>
+              <ul id="dropdown" class="menu vertical">
+                <li><a href="#branding">Branding</a></li>
+                <li><a href="#web">Web Design</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li class="show-for-large-only"><img src="http://www.placehold.it/50x50/000000/ffffff" alt=""></li>
+          </ul>
+        </div>
+      </div>
+<!-- END OF PERSISTENT NAVIGATION -->
+
+<!-- INTRO -->
+<section id="intro" class="row">
+  <div id="backbox">
+    <h2>Alex Yan</h2>
+    <h3>Graphic Designer</h3>
+  </div>
+</section>
+<!-- END OF INTRO -->
+
+<!-- MISSION STATEMENT -->
+<section id="mission" class="row">
+  <h3>About</h3>
+  <p>I'm a graphic designer based out of the Bay Area and I enjoy finding solutions to design challenges. There's always something exciting about exploring branding ideas and creating new meanings to older design aesthetics. The focus of my work is largely branding and web design, but I also can't pass up the chance to illustrate something on paper. </p>
+</section>
+<!-- END OF MISSION STATEMENT -->
+
+<!-- BRANDING -->
+<section id="branding" class="row">
+  <h2>My Work</h2>
+  <h3>Branding</h3>
+  <figure class="column large-4 medium-4 small-12 logos">
+    <a href="#"><img class="logomini" src="images/nforg.png"></a>
+    <p class="brands">Nature Forged</p>
+  </figure>
+  <figure class="column large-4 medium-4 small-12 logos">
+    <a href="#"><img class="logomini" src="images/Dopen.png"></a>
+    <p class="brands">Diamond Openers</p>
+  </figure>
+  <figure class="column large-4 medium-4 small-12 logos">
+    <a href="#"><img class="logomini" src="images/bigbull.png"></a>
+    <p class="brands">Black Iron Grill</p>
+  </figure>
+</section>
+<!-- END OF BRANDING -->
+
+<!-- WEB -->
+<section id="web" class="row">
+  <h3>Web Design</h3>
+  <figure class="column large-4 medium-4 small-12 webs">
+    <a href="#"><img src="https://www.placehold.it/250x250/000000/ffffff"></a>
+    <figcaption>
+      Placeholder text for the web design brief in a couple lines of text.
+    </figcaption>
+  </figure>
+  <figure class="column large-4 medium-4 small-12 webs">
+    <a href="#"><img src="https://www.placehold.it/250x250/000000/ffffff"></a>
+    <figcaption>
+      Placeholder text for the web design brief in a couple lines of text.
+    </figcaption>
+  </figure>
+  <figure class="column large-4 medium-4 small-12 webs">
+    <a href="#"><img src="https://www.placehold.it/250x250/000000/ffffff"></a>
+    <figcaption>
+      Placeholder text for the web design brief in a couple lines of text.
+    </figcaption>
+  </figure>
+</section>
+<!-- END OF WEB -->
+
+<!-- CONTACT -->
+<section id="contact" class="row">
+  <form id="left-box" class="column large-4 medium-4 small-12">
+    <h3>Contact</h3>
+  <section class="row left-form">
+    <div class="small-3 columns">
+      <label for="right-label" class="text-right">Name</label>
+    </div>
+    <div class="small-9 columns data-here">
+      <input type="text" id="right-label" placeholder="Full Name">
+    </div>
+    <div class="small-3 columns">
+      <label for="right-label" class="text-right">Phone</label>
+    </div>
+    <div class="small-9 columns data-here">
+      <input type="text" id="right-label" placeholder="(999)-999-9999">
+    </div>
+    <div class="small-3 columns">
+      <label for="right-label" class="text-right">Email</label>
+    </div>
+    <div class="small-9 columns data-here">
+      <input type="text" id="right-label" placeholder="Your Email">
+    </div>
+    <div class="small-12 columns sbuttonbox">
+      <input type="submit" id="sbutton">
+    </div>
+  </section>
+</form>
+</section>
+<!-- END OF CONTACT -->
+
+<!-- FOOTER -->
+<section id="footer" class="row">
+  <h3>Thank You For Visiting</h3>
+  <p>Copyright &copy; 2017 Alex Yan</p>
+</section>
+<!-- END OF FOOTER -->
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/jquery.backstretch.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+    $("#intro").backstretch("images/introback.jpg");
+</script>
+  </body>
+</html>

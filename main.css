@@ -1,0 +1,192 @@
+#nav {
+  background-color: #d25634;
+}
+#nav ul {
+  background-color: #d25634;
+}
+#nav li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #d25634;
+}
+#dropdown {
+  position: absolute;
+}
+#intro {
+  height: 300px;
+  text-align: center;
+  padding: 0px;
+}
+#intro h2 {
+  padding-top: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 36px;
+  color: white;
+  text-transform: uppercase;
+}
+#intro h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+#backbox {
+  position: relative;
+  top: 160px;
+  margin: 0 auto;
+  height: 100px;
+  width: 200px;
+  background-color: rgba(0,0,0,0.8);
+}
+#mission {
+  height: 400px;
+  background-color: #1c2d2c;
+  text-align: center;
+}
+#mission h3 {
+  padding-top: 70px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 32px;
+  color: #d25634;
+  text-transform: uppercase;
+}
+#mission p {
+  font-family: Verdana, sans-serif;
+  height: 300px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 25%;
+  padding-right: 25%;
+  letter-spacing: -.75px;
+  color: white;
+  text-align: justify;
+  overflow: hidden;
+}
+#branding {
+  text-align: center;
+  height: 1000px;
+  background-color: white;
+}
+#branding h2 {
+  padding-top: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+#branding h3 {
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #d25634;
+  letter-spacing: 2px;
+}
+.logos {
+  height: 250px;
+  padding-top: 40px;
+}
+.logomini {
+  height: 150px;
+  opacity: .8;
+}
+#branding .brands {
+  padding-top: 20px;
+  font-family: 'Montserrat', Verdana, sans-serif;
+  font-size: 14px;
+  letter-spacing: -1.2px;
+  text-transform: uppercase;
+
+}
+#branding a:hover img, #web a:hover img {
+  opacity: .6;
+  transition-duration:.8s;
+}
+#web {
+  text-align: center;
+  height: 1300px;
+  background-color: #1c2d2c;
+}
+#web .webs {
+  padding-top: 40px;
+}
+#web h3 {
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #d25634;
+  letter-spacing: 2px;
+}
+#web .webs figcaption{
+  margin-bottom: 40px;
+  padding-top: 15px;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: justify;
+}
+#contact {
+  height: 600px;
+}
+#contact h3 {
+  padding-top: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+#contact #left-box {
+  height: 600px;
+  background-color: black;
+}
+#contact .left-form {
+  padding-top: 120px;
+}
+#contact .text-right {
+  color: white;
+  padding-top: 20px;
+}
+#contact .data-here {
+  padding-right: 60px;
+  padding-top: 20px;
+}
+.sbuttonbox {
+  margin-top: 20px;
+  text-align: center;
+}
+#sbutton {
+  background-color: #1c2d2c;
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  color: #d25634;
+  border: 1px solid #d25634;
+}
+.sbuttonbox:hover {
+  opacity: 0.6;
+  transition-duration: .4s;
+}
+#footer {
+  text-align: center;
+  height: 80px;
+  background-color: #1c2d2c;
+}
+#footer h3 {
+  padding-top: 20px;
+  margin-bottom: 6px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #d25634;
+  line-height: 14px;
+}
+#footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: white;
+}

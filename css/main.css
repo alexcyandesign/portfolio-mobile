@@ -123,6 +123,16 @@
 #web .webs {
   padding-top: 40px;
 }
+#web h2 {
+  font-family: 'Roboto', serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+  margin-bottom: 16px;
+}
 #web h3 {
   padding-top: 40px;
   font-family: 'Montserrat', sans-serif;
@@ -153,7 +163,7 @@
 }
 #contact #left-box {
   height: 600px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 #contact .left-form {
   padding-top: 120px;

@@ -1,19 +1,30 @@
 #nav {
-  background-color: #d25634;
-}
-#nav ul {
-  background-color: #d25634;
+  height: 60px;
+  padding-top: 8px;
+  background-color: rgba(210, 86, 52, .95);
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
 }
 #nav li a {
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
+}
+#nav #dropdown {
+  background-color: rgba(210, 86, 52, .95);
+}
+#nav #dropdown li a {
   color: white;
-  background-color: #d25634;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
 }
-#dropdown {
-  position: absolute;
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+    border-color: #ffffff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
+
 #intro {
   height: 300px;
   text-align: center;

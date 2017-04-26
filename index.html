@@ -15,35 +15,19 @@
 
 
   <!-- PERSISTENT NAVIGATION -->
-      <div class="title-bar" data-responsive-toggle="nav" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="nav"></button>
-        <div class="title-bar-title">Menu</div>
-      </div>
-
-      <div class="top-bar row" id="nav">
-        <div class="top-bar-left">
-          <ul class="dropdown menu column large-12 medium-12 small-12" data-dropdown-menu>
-            <li><a href="index.html">Home</a></li>
-
-            <li><a href="#mission">About</a></li>
-
-            <li>
-              <a href="#">Portfolio</a>
-              <ul id="dropdown" class="menu vertical">
-                <li><a href="#branding">Branding</a></li>
-                <li><a href="#web">Web Design</a></li>
-              </ul>
-            </li>
-
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li class="show-for-large-only"><img src="http://www.placehold.it/50x50/000000/ffffff" alt=""></li>
-          </ul>
-        </div>
-      </div>
+<section class="row">
+  <ul id="nav" class="dropdown menu column large-12 medium-12 small-12" data-dropdown-menu>
+    <li><a href="#">Home</a></li>
+    <li><a href="#mission">About</a></li>
+    <li><a href="#">Portfolio</a>
+      <ul id="dropdown" class="menu">
+        <li><a href="#branding">Branding</a></li>
+        <li><a href="#web">Web Design</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</section>
 <!-- END OF PERSISTENT NAVIGATION -->
 
 <!-- INTRO -->
@@ -85,19 +69,19 @@
 <section id="web" class="row">
   <h3>Web Design</h3>
   <figure class="column large-4 medium-4 small-12 webs">
-    <a href="#"><img src="https://www.placehold.it/250x250/000000/ffffff"></a>
+    <a href="#"><img class="logomini" src="https://www.placehold.it/250x250/000000/ffffff"></a>
     <figcaption>
       Placeholder text for the web design brief in a couple lines of text.
     </figcaption>
   </figure>
   <figure class="column large-4 medium-4 small-12 webs">
-    <a href="#"><img src="https://www.placehold.it/250x250/000000/ffffff"></a>
+    <a href="#"><img class="logomini" src="images/chaithai.png"></a>
     <figcaption>
-      Placeholder text for the web design brief in a couple lines of text.
+      Served as a front-end web developer for restaurant redesign project with team members and helped to design homepage and about page.
     </figcaption>
   </figure>
   <figure class="column large-4 medium-4 small-12 webs">
-    <a href="#"><img src="https://www.placehold.it/250x250/000000/ffffff"></a>
+    <a href="#"><img class="logomini" src="https://www.placehold.it/250x250/000000/ffffff"></a>
     <figcaption>
       Placeholder text for the web design brief in a couple lines of text.
     </figcaption>
@@ -151,7 +135,10 @@
 <script src="js/app.js"></script>
 
 <script>
-    $("#intro").backstretch("images/introback.jpg");
+    $("#intro").backstretch("images/introback.jpg"),
+    $("#mission").backstretch("images/textured_green.jpg"),
+    $("#branding").backstretch("images/wood_texture.jpg"),
+    $("#contact").backstretch("images/pathway.jpg");
 </script>
   </body>
 </html>
